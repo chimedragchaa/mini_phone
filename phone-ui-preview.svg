@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1220" viewBox="0 0 1400 1220">
+  <defs>
+    <style>
+      .bg{fill:#eee5ce}.screen{fill:#ffedbb;stroke:#18283f;stroke-width:2}.navy{fill:#18283f}.card{fill:#f7e5b4}.green{fill:#337b5d}.red{fill:#bd4c50}.blue{fill:#547ea3}.orange{fill:#edae42}.ink{fill:#283348}.muted{fill:#657080}.white{fill:#fff1c6}.stroke{stroke:#18283f;stroke-width:1.4}.ttl{font:bold 14px Arial,sans-serif;fill:#fff1c6}.txt{font:12px Arial,sans-serif;fill:#283348}.small{font:10px Arial,sans-serif;fill:#657080}.btn{font:bold 12px Arial,sans-serif;fill:#fff}.label{font:bold 14px Arial,sans-serif;fill:#18283f}
+    </style>
+    <g id="frame">
+      <rect class="screen" width="320" height="240" rx="10"/>
+      <path d="M1 10Q1 1 10 1H310Q319 1 319 10V30H1Z" class="navy"/>
+      <rect x="231" y="4" width="80" height="22" rx="6" class="green"/>
+      <text x="239" y="19" class="white" font-family="Arial" font-size="10">GSM OK</text>
+    </g>
+  </defs>
+  <rect width="1400" height="1220" class="bg"/>
+
+  <text x="28" y="25" class="label">1. Home</text>
+  <text x="378" y="25" class="label">2. Contacts</text>
+  <text x="728" y="25" class="label">3. Messages</text>
+  <text x="1078" y="25" class="label">4. Write SMS</text>
+  <text x="28" y="315" class="label">5. Incoming call</text>
+  <text x="378" y="315" class="label">6. In call</text>
+  <text x="728" y="315" class="label">7. Photos</text>
+  <text x="1078" y="315" class="label">8. Music</text>
+  <text x="28" y="615" class="label">9. Add contact</text>
+  <text x="378" y="615" class="label">10. Saved drafts</text>
+  <text x="728" y="615" class="label">11. Network status</text>
+  <text x="1078" y="615" class="label">12. Friend card</text>
+  <text x="28" y="915" class="label">13. Delete confirmation</text>
+
+  <g transform="translate(28 40)">
+    <use href="#frame"/><text x="10" y="20" class="ttl">LITTLE PHONE</text>
+    <text x="91" y="49" class="small">A little phone for big adventures</text>
+    <rect x="16" y="62" width="136" height="50" rx="8" class="green"/><text x="61" y="93" class="btn" font-size="16">CALL</text>
+    <rect x="168" y="62" width="136" height="50" rx="8" class="blue"/><text x="199" y="91" class="btn">CONTACTS</text>
+    <rect x="16" y="122" width="136" height="50" rx="8" class="blue"/><text x="47" y="152" class="btn">MESSAGES</text>
+    <rect x="168" y="122" width="136" height="50" rx="8" class="red"/><text x="215" y="152" class="btn" font-size="16">MEDIA</text>
+    <text x="18" y="207" class="small">Last call: +976 …</text><text x="18" y="225" class="small">Ready</text>
+  </g>
+
+  <g transform="translate(378 40)">
+    <use href="#frame"/><text x="10" y="20" class="ttl">CONTACTS</text>
+    <g class="stroke"><rect x="8" y="37" width="304" height="26" rx="5" class="card"/><rect x="8" y="67" width="304" height="26" rx="5" class="card"/><rect x="8" y="97" width="304" height="26" rx="5" class="card"/><rect x="8" y="127" width="304" height="26" rx="5" class="card"/><rect x="8" y="157" width="304" height="26" rx="5" class="card"/></g>
+    <text x="16" y="54" class="txt">Eej</text><text x="112" y="54" class="txt">+976 …</text>
+    <text x="16" y="84" class="txt">Naiz</text><text x="112" y="84" class="txt">+976 …</text>
+    <text x="16" y="114" class="txt">Akh</text><text x="112" y="114" class="txt">+976 …</text>
+    <text x="16" y="144" class="txt">Grandma</text><text x="112" y="144" class="txt">+976 …</text>
+    <text x="16" y="174" class="txt">Uncle</text><text x="112" y="174" class="txt">+976 …</text>
+    <rect x="8" y="197" width="82" height="30" rx="6" class="blue"/><text x="30" y="216" class="btn">PREV</text>
+    <rect x="104" y="197" width="112" height="30" rx="6" class="navy"/><text x="143" y="216" class="btn">BACK</text>
+    <rect x="230" y="197" width="82" height="30" rx="6" class="blue"/><text x="252" y="216" class="btn">NEXT</text>
+  </g>
+
+  <g transform="translate(728 40)">
+    <use href="#frame"/><text x="10" y="20" class="ttl">MESSAGES</text><text x="9" y="45" class="small">SIM inbox (latest 5)</text>
+    <g class="stroke"><rect x="8" y="50" width="304" height="25" rx="5" class="card"/><rect x="8" y="78" width="304" height="25" rx="5" class="card"/><rect x="8" y="106" width="304" height="25" rx="5" class="card"/></g>
+    <text x="15" y="64" class="txt">+976 …</text><text x="15" y="73" class="small">See you after school!</text>
+    <text x="15" y="92" class="txt">Eej</text><text x="15" y="101" class="small">Call me when you arrive.</text>
+    <text x="15" y="120" class="txt">Naiz</text><text x="15" y="129" class="small">Hello!</text>
+    <rect x="8" y="197" width="90" height="30" rx="6" class="green"/><text x="39" y="216" class="btn">NEW</text>
+    <rect x="110" y="197" width="100" height="30" rx="6" class="blue"/><text x="126" y="216" class="btn">REFRESH</text>
+    <rect x="222" y="197" width="90" height="30" rx="6" class="navy"/><text x="243" y="216" class="btn">BACK</text>
+  </g>
+
+  <g transform="translate(1078 40)">
+    <use href="#frame"/><text x="10" y="20" class="ttl">WRITE A MESSAGE</text><text x="8" y="42" class="small">To: +976 …</text>
+    <rect x="7" y="46" width="306" height="30" rx="5" class="card"/><text x="14" y="65" class="txt">Hello, see you soon!</text>
+    <g class="stroke" fill="#f7e5b4">
+      <rect x="15" y="86" width="26" height="26" rx="4"/><rect x="44" y="86" width="26" height="26" rx="4"/><rect x="73" y="86" width="26" height="26" rx="4"/><rect x="102" y="86" width="26" height="26" rx="4"/><rect x="131" y="86" width="26" height="26" rx="4"/><rect x="160" y="86" width="26" height="26" rx="4"/><rect x="189" y="86" width="26" height="26" rx="4"/><rect x="218" y="86" width="26" height="26" rx="4"/><rect x="247" y="86" width="26" height="26" rx="4"/><rect x="276" y="86" width="26" height="26" rx="4"/>
+      <rect x="27" y="117" width="26" height="26" rx="4"/><rect x="56" y="117" width="26" height="26" rx="4"/><rect x="85" y="117" width="26" height="26" rx="4"/><rect x="114" y="117" width="26" height="26" rx="4"/><rect x="143" y="117" width="26" height="26" rx="4"/><rect x="172" y="117" width="26" height="26" rx="4"/><rect x="201" y="117" width="26" height="26" rx="4"/><rect x="230" y="117" width="26" height="26" rx="4"/>
+      <rect x="56" y="148" width="26" height="26" rx="4"/><rect x="85" y="148" width="26" height="26" rx="4"/><rect x="114" y="148" width="26" height="26" rx="4"/><rect x="143" y="148" width="26" height="26" rx="4"/><rect x="172" y="148" width="26" height="26" rx="4"/><rect x="201" y="148" width="26" height="26" rx="4"/>
+    </g>
+    <text x="25" y="104" class="txt">Q W E R T Y U I O P</text><text x="37" y="135" class="txt">A S D F G H J K</text><text x="66" y="166" class="txt">Z X C V B N M</text>
+    <rect x="6" y="181" width="70" height="43" rx="6" class="blue"/><text x="17" y="207" class="btn">SPACE</text>
+    <rect x="81" y="181" width="45" height="43" rx="6" class="orange"/><text x="91" y="207" class="btn">123</text>
+    <rect x="131" y="181" width="54" height="43" rx="6" class="orange"/><text x="143" y="207" class="btn">DEL</text>
+    <rect x="190" y="181" width="64" height="43" rx="6" class="green"/><text x="200" y="207" class="btn">SEND</text>
+    <rect x="259" y="181" width="55" height="43" rx="6" class="navy"/><text x="266" y="207" class="btn">BACK</text>
+  </g>
+
+  <g transform="translate(28 330)">
+    <use href="#frame"/><text x="10" y="20" class="ttl">PHONE IS RINGING!</text>
+    <circle cx="160" cy="64" r="12" class="orange"/><path d="M144 64H176M160 48V80" stroke="#edae42" stroke-width="3"/>
+    <text x="130" y="105" class="small">CALL FROM</text><text x="105" y="133" class="txt" font-size="16">+976 …</text>
+    <rect x="22" y="166" width="126" height="50" rx="8" class="green"/><text x="50" y="197" class="btn">ANSWER</text>
+    <rect x="172" y="166" width="126" height="50" rx="8" class="red"/><text x="203" y="197" class="btn">REJECT</text>
+  </g>
+
+  <g transform="translate(378 330)">
+    <use href="#frame"/><text x="10" y="20" class="ttl">TALKING</text>
+    <circle cx="160" cy="58" r="10" class="orange"/><path d="M146 58H174M160 44V72" stroke="#edae42" stroke-width="2"/>
+    <text x="121" y="95" class="txt" font-size="16">+976 …</text><text x="139" y="125" fill="#337b5d" font-family="Arial" font-size="14">Connected</text><text x="146" y="157" fill="#b27a20" font-family="Arial" font-size="15">00:34</text>
+    <rect x="70" y="184" width="180" height="43" rx="8" class="red"/><text x="113" y="211" class="btn" font-size="15">END CALL</text>
+  </g>
+
+  <g transform="translate(728 330)">
+    <use href="#frame"/><text x="10" y="20" class="ttl">PHOTO ALBUM</text>
+    <rect x="12" y="37" width="296" height="150" rx="4" fill="#98b8a5"/><circle cx="225" cy="72" r="21" fill="#f4cc69"/><path d="M12 159L86 83L140 137L190 102L308 167V187H12Z" fill="#547e73"/><path d="M12 174L82 119L130 153L190 128L308 177V187H12Z" fill="#53709a"/>
+    <rect x="104" y="204" width="112" height="30" rx="6" class="navy"/><text x="145" y="224" class="btn">BACK</text>
+  </g>
+
+  <g transform="translate(1078 330)">
+    <use href="#frame"/><text x="10" y="20" class="ttl">MUSIC BOX</text>
+    <circle cx="160" cy="67" r="13" class="orange"/><path d="M142 67H178M160 49V85" stroke="#edae42" stroke-width="3"/>
+    <text x="123" y="104" class="txt" font-size="16">SONG.RAW</text><text x="115" y="127" class="small">8 kHz mono audio</text>
+    <rect x="18" y="160" width="132" height="48" rx="8" class="green"/><text x="67" y="190" class="btn" font-size="16">PLAY</text>
+    <rect x="170" y="160" width="132" height="48" rx="8" class="red"/><text x="215" y="190" class="btn" font-size="16">STOP</text>
+    <rect x="104" y="211" width="112" height="26" rx="6" class="navy"/><text x="145" y="229" class="btn">BACK</text>
+  </g>
+
+  <g transform="translate(28 930)">
+    <use href="#frame"/><text x="10" y="20" class="ttl">NEW CONTACT</text>
+    <text x="8" y="50" class="txt">Name</text><rect x="46" y="35" width="266" height="23" rx="4" fill="#547ea3" class="stroke"/><text x="54" y="51" class="btn">Eej</text>
+    <text x="8" y="76" class="txt">Phone</text><rect x="46" y="61" width="266" height="23" rx="4" fill="#f7e5b4" class="stroke"/><text x="54" y="77" class="txt">+976 99123456</text>
+    <g class="stroke" fill="#f7e5b4"><rect x="15" y="91" width="26" height="26" rx="4"/><rect x="44" y="91" width="26" height="26" rx="4"/><rect x="73" y="91" width="26" height="26" rx="4"/><rect x="102" y="91" width="26" height="26" rx="4"/><rect x="131" y="91" width="26" height="26" rx="4"/><rect x="160" y="91" width="26" height="26" rx="4"/><rect x="189" y="91" width="26" height="26" rx="4"/><rect x="218" y="91" width="26" height="26" rx="4"/><rect x="247" y="91" width="26" height="26" rx="4"/><rect x="276" y="91" width="26" height="26" rx="4"/></g>
+    <text x="25" y="109" class="txt">1 2 3 4 5 6 7 8 9 0</text>
+    <g class="stroke" fill="#f7e5b4"><rect x="27" y="120" width="26" height="26" rx="4"/><rect x="56" y="120" width="26" height="26" rx="4"/><rect x="85" y="120" width="26" height="26" rx="4"/><rect x="114" y="120" width="26" height="26" rx="4"/><rect x="143" y="120" width="26" height="26" rx="4"/><rect x="172" y="120" width="26" height="26" rx="4"/><rect x="201" y="120" width="26" height="26" rx="4"/><rect x="230" y="120" width="26" height="26" rx="4"/></g>
+    <text x="36" y="138" class="txt">@ # $ % &amp; * - + /</text>
+    <rect x="4" y="181" width="48" height="43" rx="6" class="blue"/><text x="13" y="207" class="btn">SPACE</text>
+    <rect x="56" y="181" width="44" height="43" rx="6" class="orange"/><text x="68" y="207" class="btn">ABC</text>
+    <rect x="104" y="181" width="44" height="43" rx="6" class="orange"/><text x="116" y="207" class="btn">DEL</text>
+    <rect x="152" y="181" width="74" height="43" rx="6" class="green"/><text x="177" y="207" class="btn">SAVE</text>
+    <rect x="230" y="181" width="84" height="43" rx="6" class="navy"/><text x="260" y="207" class="btn">BACK</text>
+  </g>
+
+  <g transform="translate(378 630)">
+    <use href="#frame"/><text x="10" y="20" class="ttl">SAVED MESSAGES</text><text x="9" y="45" class="small">SD drafts - tap one to edit or send</text>
+    <g class="stroke"><rect x="8" y="50" width="304" height="25" rx="5" class="card"/><rect x="8" y="78" width="304" height="25" rx="5" class="card"/><rect x="8" y="106" width="304" height="25" rx="5" class="card"/></g>
+    <text x="15" y="64" class="txt">+976 …</text><text x="15" y="73" class="small">Hello, see you soon!</text>
+    <text x="15" y="92" class="txt">Eej</text><text x="15" y="101" class="small">I will call you later.</text>
+    <text x="15" y="120" class="txt">Naiz</text><text x="15" y="129" class="small">Meet me at the park.</text>
+    <rect x="270" y="52" width="38" height="21" rx="4" class="red"/><text x="277" y="67" class="btn">DEL</text>
+    <rect x="270" y="80" width="38" height="21" rx="4" class="red"/><text x="277" y="95" class="btn">DEL</text>
+    <rect x="270" y="108" width="38" height="21" rx="4" class="red"/><text x="277" y="123" class="btn">DEL</text>
+    <rect x="104" y="197" width="112" height="30" rx="6" class="navy"/><text x="143" y="216" class="btn">BACK</text>
+  </g>
+
+  <g transform="translate(728 630)">
+    <use href="#frame"/><text x="10" y="20" class="ttl">NETWORK STATUS</text>
+    <text x="12" y="50" class="txt">Modem: Responding</text><text x="12" y="72" class="txt">SIM: READY</text>
+    <text x="12" y="94" class="txt">Network: Registered (home)</text><text x="12" y="116" class="txt">Signal: CSQ 18 (~-77 dBm)</text>
+    <text x="12" y="138" class="txt">Operator: GSM</text><text x="12" y="161" class="small">Auto check: 5 sec here / 10 sec elsewhere</text>
+    <g fill="#337b5d"><rect x="276" y="118" width="5" height="4"/><rect x="283" y="115" width="5" height="7"/><rect x="290" y="112" width="5" height="10"/><rect x="297" y="109" width="5" height="13"/><rect x="304" y="106" width="5" height="16"/></g>
+    <rect x="32" y="197" width="112" height="30" rx="6" class="green"/><text x="55" y="216" class="btn">CHECK NOW</text>
+    <rect x="176" y="197" width="112" height="30" rx="6" class="navy"/><text x="215" y="216" class="btn">BACK</text>
+  </g>
+
+  <g transform="translate(1078 630)">
+    <use href="#frame"/><text x="10" y="20" class="ttl">FRIEND CARD</text>
+    <circle cx="160" cy="58" r="10" class="orange"/><path d="M146 58H174M160 44V72" stroke="#edae42" stroke-width="2"/>
+    <text x="144" y="91" class="txt" font-size="16">Eej</text><text x="110" y="120" class="txt">+976 99123456</text>
+    <text x="142" y="151" class="small">Saved to SD</text>
+    <rect x="5" y="165" width="72" height="46" rx="8" class="green"/><text x="27" y="193" class="btn">CALL</text>
+    <rect x="82" y="165" width="72" height="46" rx="8" class="blue"/><text x="102" y="193" class="btn">TEXT</text>
+    <rect x="159" y="165" width="72" height="46" rx="8" class="red"/><text x="170" y="193" class="btn">DELETE</text>
+    <rect x="236" y="165" width="79" height="46" rx="8" class="navy"/><text x="252" y="193" class="btn">BACK</text>
+  </g>
+
+  <g transform="translate(28 630)">
+    <use href="#frame"/><text x="10" y="20" class="ttl">DELETE ITEM?</text>
+    <circle cx="160" cy="70" r="10" class="orange"/><path d="M146 70H174M160 56V84" stroke="#edae42" stroke-width="2"/>
+    <text x="68" y="116" class="txt">Remove this contact?</text>
+    <text x="112" y="144" class="small">This cannot be undone</text>
+    <rect x="28" y="174" width="120" height="44" rx="8" class="red"/><text x="66" y="201" class="btn">DELETE</text>
+    <rect x="172" y="174" width="120" height="44" rx="8" class="navy"/><text x="215" y="201" class="btn">KEEP</text>
+  </g>
+
+  <text x="28" y="1205" font-family="Arial,sans-serif" font-size="12" fill="#657080">Warm paper colors, navy outlines, and simple touch buttons. Labels use the shield's built-in ASCII font.</text>
+</svg>

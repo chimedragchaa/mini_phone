@@ -171,6 +171,29 @@ void trimField(char *s) {
   while (n && (s[n - 1] == ' ' || s[n - 1] == '\t')) s[--n] = '\0';
 }
 
+bool normalizeDialNumber(const char *source, char *destination, size_t capacity) {
+  size_t used = 0;
+  for (size_t i = 0; source[i]; ++i) {
+    char c = source[i];
+    if (c == ' ' || c == '\t' || c == '-' || c == '(' || c == ')') continue;
+    bool allowed = (c >= '0' && c <= '9') || c == '*' || c == '#';
+    if (c == '+' && used == 0) allowed = true;
+    if (!allowed || used + 1 >= capacity) return false;
+    destination[used++] = c;
+  }
+  destination[used] = '\0';
+  if (!used) return false;
+
+  // This phone operates in Mongolia. Dial +976 contacts as local numbers;
+  // the keypad already sends local numbers without a country prefix.
+  if (used > 4 && !strncmp(destination, "+976", 4)) {
+    memmove(destination, destination + 4, used - 3);
+  } else if (used == 11 && !strncmp(destination, "976", 3)) {
+    memmove(destination, destination + 3, used - 2);
+  }
+  return destination[0] != '\0';
+}
+
 void addContactLine(char *line) {
   trimField(line);
   if (!line[0] || line[0] == '#' || contactCount >= MAX_CONTACTS) return;
@@ -1274,6 +1297,16 @@ void startCall() {
     drawScreen();
     return;
   }
+  char normalizedNumber[sizeof(dialNumber)];
+  if (!normalizeDialNumber(dialNumber, normalizedNumber, sizeof(normalizedNumber))) {
+    strncpy(callStatus, "Invalid phone number", sizeof(callStatus) - 1);
+    callStatus[sizeof(callStatus) - 1] = '\0';
+    screen = HOME;
+    drawScreen();
+    return;
+  }
+  strncpy(dialNumber, normalizedNumber, sizeof(dialNumber) - 1);
+  dialNumber[sizeof(dialNumber) - 1] = '\0';
   if (audioRunning) stopMusic();
   strncpy(callNumber, dialNumber, sizeof(callNumber) - 1);
   callNumber[sizeof(callNumber) - 1] = '\0';
